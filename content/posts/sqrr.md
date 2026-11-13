@@ -36,7 +36,7 @@ RustではTauriというフレームワークが人気ですが、
 どうしてもWeb技術を触る必要があります。
 一方で、eguiはRustだけで完結しており、常駐アプリ向けに省メモリで動作する点から採用しました。
 
-QR処理は[rqrr](https://docs.rs/rqrr/latest/rqrr/)というクレートを使っています。
+QR処理には[rqrr](https://docs.rs/rqrr/latest/rqrr/)と[rxing](https://docs.rs/rxing/latest/rxing/)というクレートを使っており、`rqrr`で読み取れなかった場合に`rxing`を使うようにしています。
 
 ## プログラム
 
