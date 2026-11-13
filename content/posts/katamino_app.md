@@ -30,5 +30,5 @@ Fミノを使用しない11x5の詰め込み。
 Fletを始めて触ったのでメンテナンス性の低いコードになってしまっている。
 良い書き方を勉強したい。
 
-{{< linkcard "https://github.com/mutoxu-N/KataminoSolver" >}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/KataminoSolver)
+{{< linkcard "https://github.com/mutoxu-N/katamino-solver" >}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/katamino-solver)
