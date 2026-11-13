@@ -21,7 +21,7 @@ date: 2024-03-23
 アップロードする必要がある。
 
 このテンプレートは以下のようなものだ。(引用: 国税庁 [医療費集計フォーム](https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryouhi_form_v3.xlsx))
-![医療費集計フォームの画像](/Portfolio/images/posts/medical_expenses/iryouhi_form.png)
+![医療費集計フォームの画像](/portfolio/images/posts/medical_expenses/iryouhi_form.png)
 
 入力したいデータは以下の４つだ。
 
@@ -33,7 +33,7 @@ date: 2024-03-23
 ## Notion データベースの設定
 
 データを入力するためのデータベースを Notion で作成する。
-![Notionデータベース](/Portfolio/images/posts/medical_expenses/notion.png)
+![Notionデータベース](/portfolio/images/posts/medical_expenses/notion.png)
 
 以下のような設定を行った。
 
@@ -85,7 +85,7 @@ Notion は現在のビューを CSV 出力することができるので、\
 テンプレートをコピーし、医療機関ごとに Excel ファイルへ書き込む。\
 交通費はまとめて記述するため、診療回数を数えておいて合計値のみを記載する。
 
-![実行結果例](/Portfolio/images/posts/medical_expenses/result.png)
+![実行結果例](/portfolio/images/posts/medical_expenses/result.png)
 
 また、以下のように長い名前の医療機関名を入力したときには、20 文字以内に直したり\
 半角数字を全角数字に変換したりする機能を持っている。
@@ -97,7 +97,7 @@ Notion は現在のビューを CSV 出力することができるので、\
 2099年12月1日,合計の文字数が２０文字を超えるようなすごく長い名前の医療機関の名前,3000,太郎
 ```
 
-![長い名前の処理](/Portfolio/images/posts/medical_expenses/long_name.png)
+![長い名前の処理](/portfolio/images/posts/medical_expenses/long_name.png)
 
 ## プログラム
 
@@ -107,4 +107,4 @@ Notion は現在のビューを CSV 出力することができるので、\
 2023 年の CSV は `./2023/data2023.csv` に保存してください。\
 `./2023/2023医療費.xlsx` に出力されます。
 
-[ダウンロード](/Portfolio/programs/posts/medical_expenses/gen_v3.1.py)
+[ダウンロード](/portfolio/programs/posts/medical_expenses/gen_v3.1.py)

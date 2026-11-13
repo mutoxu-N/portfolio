@@ -11,7 +11,7 @@ date: 2024-07-21
 RSA暗号の暗号化・復号化を計算するための電卓アプリ。
 2つの素数を入力し、上段で暗号化、下段で復号化の演算を行っている。
 
-![アプリ画面](/Portfolio/images/posts/rsa_app/screen.webp)
+![アプリ画面](/portfolio/images/posts/rsa_app/screen.webp)
 
 ## 解説
 ### 鍵の生成

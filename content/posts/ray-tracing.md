@@ -14,7 +14,7 @@ OBJファイルから読み込んだ三角形メッシュを、 \
 ナイーブな実装なので非常に低速。\
 [kd-tree](https://ja.wikipedia.org/wiki/Kd%E6%9C%A8)のようなデータ構造を使用すると高速になりそう。
 
-![実行結果例](/Portfolio/images/posts/ray-tracing/bunny.png)
+![実行結果例](/portfolio/images/posts/ray-tracing/bunny.png)
 
 ## プログラム
 {{< linkcard "https://github.com/mutoxu-N/Study/tree/main/ray-tracing" >}}

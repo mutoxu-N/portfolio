@@ -30,7 +30,7 @@ date: 2024-11-11
 - $r_i\in R$ の右上座標は $(x_i^\prime, y_i^\prime)$ で、$x_i < x_i^\prime$ かつ $y_i < y_i^\prime$
 
 各長方形の左下の頂点が入力点群である。
-![実行結果例](/Portfolio/images/posts/anchor_rect/sample.txt.png)
+![実行結果例](/portfolio/images/posts/anchor_rect/sample.txt.png)
 
 ## プログラム
 
@@ -56,26 +56,26 @@ date: 2024-11-11
   $r_i$ が成長すると $p_j$ に衝突する。\
    $t_x \lt t_y$ の場合、$r_i$ は $p_j$ に下からぶつかる。\
    $t_y \lt t_x$ の場合、$r_i$ は $p_j$ に左からぶつかる。
-  ![p_jが第1象限](/Portfolio/images/posts/anchor_rect/quad1.png)
+  ![p_jが第1象限](/portfolio/images/posts/anchor_rect/quad1.png)
 
 - $p_j$ が $p_i$ の第 2 象限にある場合
 
   $t_i \lt t_j$ の場合、$r_j$ は $r_i$ に左からぶつかる。\
   $t_j \lt t_i$ の場合、$r_i$ は $r_j$ に下からぶつかる。
-  ![p_jが第2象限](/Portfolio/images/posts/anchor_rect/quad2.png)
+  ![p_jが第2象限](/portfolio/images/posts/anchor_rect/quad2.png)
 
 - $p_j$ が $p_i$ の第 3 象限にある場合
 
   $r_i$ が成長すると $p_j$ に衝突する。\
    $t_x \lt t_y$ の場合、$r_j$ は $p_i$ に下からぶつかる。\
    $t_y \lt t_x$ の場合、$r_j$ は $p_i$ に左からぶつかる。
-  ![p_jが第3象限](/Portfolio/images/posts/anchor_rect/quad3.png)
+  ![p_jが第3象限](/portfolio/images/posts/anchor_rect/quad3.png)
 
 - $p_j$ が $p_i$ の第 4 象限にある場合
 
   $t_i \lt t_j$ の場合、$r_j$ は $r_i$ に下からぶつかる。\
   $t_j \lt t_i$ の場合、$r_i$ は $r_j$ に左からぶつかる。
-  ![p_jが第4象限](/Portfolio/images/posts/anchor_rect/quad4.png)
+  ![p_jが第4象限](/portfolio/images/posts/anchor_rect/quad4.png)
 
 #### 長方形 $r_i$ の配置
 
@@ -87,7 +87,7 @@ date: 2024-11-11
 重ならなくなるまで $x_i^\prime, y_i^\prime$ を小さくすることで実現できる。
 
 これだけでは、以下の画像の 3 番目の解が出力される。\
-![解の修正](/Portfolio/images/posts/anchor_rect/fix.png)
+![解の修正](/portfolio/images/posts/anchor_rect/fix.png)
 
 3 番目の段階で最後に左から衝突しているので、最後に上方向に伸ばすことで面積を大きくすることができる。
 

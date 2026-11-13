@@ -7,7 +7,7 @@ type: "post"
 date: 2019-09-13
 ---
 
-![タイトル画面](/Portfolio/images/posts/wecraft/title.png)
+![タイトル画面](/portfolio/images/posts/wecraft/title.png)
 
 ## 要約
 高校時代に文化祭用に、[Defold](https://defold.com/)で作成したゲーム。
@@ -25,7 +25,7 @@ WECraftの難易度には、難易度順に4つを選択することができる
 - HARD
 - EXTREME
 
-![難易度一覧](/Portfolio/images/posts/wecraft/difficulty.png)
+![難易度一覧](/portfolio/images/posts/wecraft/difficulty.png)
 
 実は、最も難しい難易度として **IMPOSSIBLE** が用意されている。
 
@@ -53,7 +53,7 @@ WECraftの難易度には、難易度順に4つを選択することができる
 2. その状態で `marron` と入力する。
 
 正常に動作すると管理者画面が表示される。
-![難易度一覧](/Portfolio/images/posts/wecraft/admin.png)
+![難易度一覧](/portfolio/images/posts/wecraft/admin.png)
 
 #### アイテムID
 アイテムの取得にはアイテムIDが必要である。

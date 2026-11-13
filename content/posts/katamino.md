@@ -27,12 +27,12 @@ date: 2024-12-11
 
 例えば、左下から右方向に詰め込みを行うと, \
 黒マスには残りのミノのどれもが配置できないため、ひとつ前に配置したミノを取り除いて再度詰め込みを行う。
-![実行例](/Portfolio/images/posts/katamino/long.png)
+![実行例](/portfolio/images/posts/katamino/long.png)
 これは再帰を用いて効率的に書くことができる。
 
 ここで、詰め込み方向は短辺方向が良い。\
 以下のように詰め込むと早い段階で詰め込みが出来なくなり、枝刈りの効率が良い。
-![実行例2](/Portfolio/images/posts/katamino/short.png)
+![実行例2](/portfolio/images/posts/katamino/short.png)
 
 ### X ミノを使用するときの重複排除(2D)
 
@@ -42,7 +42,7 @@ date: 2024-12-11
 ここで、X ミノは反転しても形が変わらないことに注目すると、\
 X ミノの中心位置によって場合分けすることで効率的に計算することができる。
 
-![Xミノの位置による場合分け](/Portfolio/images/posts/katamino/mino_x.png)
+![Xミノの位置による場合分け](/portfolio/images/posts/katamino/mino_x.png)
 
 | X の中心位置 |                  説明                  |
 | :----------: | :------------------------------------: |
@@ -97,7 +97,7 @@ I ミノは長さが 5 なので、3x4 平面に配置することはできな�
 つまり、解を 3x4 平面で切ると、I ミノが 1 マス存在している。
 
 3x4 平面上の I ミノの位置で場合分けを行う。
-![Iミノの位置による場合分け](/Portfolio/images/posts/katamino/mino_i.png)
+![Iミノの位置による場合分け](/portfolio/images/posts/katamino/mino_i.png)
 
 | I の中心位置 |                    説明                    |
 | :----------: | :----------------------------------------: |

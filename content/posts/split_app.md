@@ -7,7 +7,7 @@ type: "post"
 date: 2024-10-16
 ---
 
-![アプリアイコン](/Portfolio/images/posts/split_app/icon.svg)
+![アプリアイコン](/portfolio/images/posts/split_app/icon.svg)
 
 ## 要約
 - 「先輩は5%多く払う」
@@ -22,7 +22,7 @@ date: 2024-10-16
 
 ## 技術
 アプリの全体のイメージは以下のようになっている。
-![全体のイメージ図](/Portfolio/images/posts/split_app/split_structure.svg)
+![全体のイメージ図](/portfolio/images/posts/split_app/split_structure.svg)
 
 データの管理は[Firestore](https://firebase.google.com/docs/firestore?hl=ja)で行う
 **三層アーキテクチャ**のような構成になっている。

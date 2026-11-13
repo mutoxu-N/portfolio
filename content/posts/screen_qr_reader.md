@@ -11,7 +11,7 @@ date: 2026-06-04
 
 画面上のQRコードを読むためデスクトップアプリ。
 
-![アプリアイコン](/Portfolio/images/posts/screen_qr_reader/icon.png)
+![アプリアイコン](/portfolio/images/posts/screen_qr_reader/icon.png)
 
 ## 主な機能
 

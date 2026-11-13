@@ -17,9 +17,9 @@ $2, 3, 5, 7, 11, 13, 17, 19$ の合成数が与えられるので、
 いろいろなアスペクト比の画面でも正常に動くようなレイアウトを練習するために作成した。
 画面の向きによってレイアウトが変化する。
 
-![横画面](/Portfolio/images/posts/factoring/horizontal.png)
+![横画面](/portfolio/images/posts/factoring/horizontal.png)
 
-![縦画面](/Portfolio/images/posts/factoring/vertical.png)
+![縦画面](/portfolio/images/posts/factoring/vertical.png)
 
 Windows 用ダウンロード: [GitHub](https://github.com/mutoxu-N/Factoring/releases/tag/windows)
 

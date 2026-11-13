@@ -7,7 +7,7 @@ type: "post"
 date: 2023-04-06
 ---
 
-![アプリアイコン](/Portfolio/images/posts/microwave_calculator/icon.webp)
+![アプリアイコン](/portfolio/images/posts/microwave_calculator/icon.webp)
 
 ## 要約
 Androidアプリに興味があり、一番はじめに作ったアプリ。 \
@@ -20,14 +20,14 @@ Google Playストアへのリリースを行った。
 - 異なるワット数の温め時間を計算する
 - 自分の使っているレンジに合わせてワット数を登録できる
 
-![アプリ画面例](/Portfolio/images/posts/microwave_calculator/screen.webp)
+![アプリ画面例](/portfolio/images/posts/microwave_calculator/screen.webp)
 
 ## 動機
 自宅の電子レンジのワット数が730Wのものであり、
 長時間の温めが必要な冷凍食品の温め時間が分からないことがあった。
 ( 短時間だったら適当に調整できるが500W15分とかだと, 
 730Wで10分くらい...？」と不安になる )
-![自宅のレンジ](/Portfolio/images/posts/microwave_calculator/730w.webp)
+![自宅のレンジ](/portfolio/images/posts/microwave_calculator/730w.webp)
 
 そこで、自分の使っているワット数をいくつか登録できるような**温め時間計算アプリ**が欲しかった。
 

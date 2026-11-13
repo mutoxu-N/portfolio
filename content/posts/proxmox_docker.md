@@ -22,7 +22,7 @@ Proxmox で Docker を使いたい。\
 軽量な Linux ディストリビューションの [DietPi](https://www.dietpi.com/) を使用する。
 
 DietPi の公式サイトには Proxmox 用のファイルが用意されている。
-![DietPiの公式サイト](/Portfolio/images/posts/proxmox_docker/dietpi_proxmox.png)
+![DietPiの公式サイト](/portfolio/images/posts/proxmox_docker/dietpi_proxmox.png)
 
 Proxmox へのインストール方法はドキュメントに記載されている。
 {{< linkcard "https://dietpi.com/docs/install/#how-to-install-dietpi-proxmox" >}}
@@ -39,9 +39,9 @@ DietPi では、`dietpi` が初期設定のパスワードになっているの�
 `Search Software` から `docker` と `tailscale` 検索して選択する。 \
 (必要なら `git` も選択する。)
 
-![DietPi Software](/Portfolio/images/posts/proxmox_docker/dietpi_software.png)
+![DietPi Software](/portfolio/images/posts/proxmox_docker/dietpi_software.png)
 
-![DietPi Software でDockerを選択](/Portfolio/images/posts/proxmox_docker/dietpi_software_docker.png)
+![DietPi Software でDockerを選択](/portfolio/images/posts/proxmox_docker/dietpi_software_docker.png)
 
 最後に `Install` を選択すると、\
 DietPi と共に Docker と Tailscale がインストールされる。
@@ -72,14 +72,14 @@ VM に静的 IP アドレスを割り当てる設定を行う。
 
 ここで `Copy` を選択すると現在の設定が入力されるので、\
 その後、`Static IP` を任意の IP に変更するのがオススメ。
-![ネットワークの設定](/Portfolio/images/posts/proxmox_docker/network.png)
+![ネットワークの設定](/portfolio/images/posts/proxmox_docker/network.png)
 
 ## 時刻の設定
 
 日本時間を設定する。\
 `dietpi-config` から `Language/Regional Options` を選択する。
 
-![タイムゾーンの設定](/Portfolio/images/posts/proxmox_docker/timezone.png)
+![タイムゾーンの設定](/portfolio/images/posts/proxmox_docker/timezone.png)
 
 ## Vim
 

@@ -64,7 +64,7 @@ WSL内のホームディレクトリを開いている前提で進めていく�
 今回は、v5.5.1 をインストールするが、この部分は更新される可能性があるので、\
 随時確認してほしい。
 
-![ESP-IDFのバージョン](/Portfolio/images/posts/esp-idf_tutorial/esp-idf_version.png)
+![ESP-IDFのバージョン](/portfolio/images/posts/esp-idf_tutorial/esp-idf_version.png)
 
 ここからは、公式ドキュメントが用意されているので、それを参考にする。
 {{< alert "info">}}
@@ -158,7 +158,7 @@ usbipd list
 
 を実行する。 \
 USBデバイス一覧が出てくるので、開発ボードっぽいデバイスを選択する。 (今回は `1-1` )
-![USBデバイス一覧](/Portfolio/images/posts/esp-idf_tutorial/usbipd_not-shared_example.png)
+![USBデバイス一覧](/portfolio/images/posts/esp-idf_tutorial/usbipd_not-shared_example.png)
 
 `STATE` が `Not Shared` になっているはずなので、これを `Shared` に変更する。 \
 (ここに管理者権限が必要です。)
@@ -228,7 +228,7 @@ export ESP_MATTER_DEVICE_PATH=$ESP_MATTER_PATH/device_hal/device/esp32c6_devkit_
 
 次に、デバイスの接続ポートを設定する。\
 VSCodeの下部バーにコンセントのようなマークが存在するのでクリックすると、デバイスのポートを選択できる。
-![ポート選択画面](/Portfolio/images/posts/esp-idf_tutorial/esp-idf_port-list.png)
+![ポート選択画面](/portfolio/images/posts/esp-idf_tutorial/esp-idf_port-list.png)
 
 今回は1台しか接続していないので、ひとつだけ表示されているが、 \
 複数台で開発する場合は適切に設定しよう。
@@ -262,7 +262,7 @@ sudo chmod 666 /dev/ttyACM0
 {{< linkcard "https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT:Y.K9042C00KA0648G00" >}}
 
 実際に HomeAssistant に追加すると以下のような操作パネルからデバイスを操作できる。
-![HomeAssistantの操作パネル](/Portfolio/images/posts/esp-idf_tutorial/ha_sample.png)
+![HomeAssistantの操作パネル](/portfolio/images/posts/esp-idf_tutorial/ha_sample.png)
 
 ## Matterデバイス開発の手引き
 
@@ -572,13 +572,13 @@ esp_err_t app_driver_light_set_defaults(uint16_t endpoint_id);
 `idf.py menuconfig` を実行するとプロジェクト設定を行うことができる。 \
 (画面が表示されるまで時間がかかることがある。)
 
-![menuconfigのトップ画面](/Portfolio/images/posts/esp-idf_tutorial/menuconfig.png)
+![menuconfigのトップ画面](/portfolio/images/posts/esp-idf_tutorial/menuconfig.png)
 
 この画面は Vim のような操作感で扱える。\
 `/` で検索を行うことができるため、何か設定するときには検索するのが良い。
 
 例えばログレベルを設定したい場合には`/LOG_LEVEL` で検索すれば良い。
-![ログレベルの設定](/Portfolio/images/posts/esp-idf_tutorial/log_level.png)
+![ログレベルの設定](/portfolio/images/posts/esp-idf_tutorial/log_level.png)
 
 全体のログレベルを設定するなら、`LOG_DEFAULT_LEVEL` で表示される項目を設定すれば良い。
 

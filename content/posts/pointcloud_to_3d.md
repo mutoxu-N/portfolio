@@ -13,7 +13,7 @@ date: 2023-01-14
 大量の三次元点群を地面/建物判定し、3D モデルを作成することだった。
 
 作品名: トウキョウスムージー
-![実行結果例](/Portfolio/images/posts/pointcloud_to_3d/result.png)
+![実行結果例](/portfolio/images/posts/pointcloud_to_3d/result.png)
 
 ## 入力データ
 
@@ -52,7 +52,7 @@ $X$, $Y$座標は 1m おきに整数で与えられる。$Z$座標は、$(X, Y)$
 画像のノイズ除去に使用されるオープニングを使用することで、\
 細い走査線を減らすことができた。
 
-![opening](/Portfolio/images/posts/pointcloud_to_3d/opening.png)
+![opening](/portfolio/images/posts/pointcloud_to_3d/opening.png)
 
 ### データ削減
 
@@ -66,7 +66,7 @@ $X$, $Y$座標は 1m おきに整数で与えられる。$Z$座標は、$(X, Y)$
 建物判定した点群をそのまま繋ぐと、建物が台形のような形になってしまう。\
 建物の少し外側に頂点を追加し、壁面が垂直になるように加工する。
 
-![建物を直角に](/Portfolio/images/posts/pointcloud_to_3d/anchor.png)
+![建物を直角に](/portfolio/images/posts/pointcloud_to_3d/anchor.png)
 
 ### 平滑化
 
@@ -96,4 +96,4 @@ $(X, Y)$ の平面でドロネーの三角形分割を使用し、三角形メ�
 画像処理技術を応用したアプローチを行い、綺麗な 3D モデルを作成することができた。\
 一見関係なさそうな知識が応用できて面白かった。
 
-![実行結果](/Portfolio/images/posts/pointcloud_to_3d/result_zoom.png)
+![実行結果](/portfolio/images/posts/pointcloud_to_3d/result_zoom.png)

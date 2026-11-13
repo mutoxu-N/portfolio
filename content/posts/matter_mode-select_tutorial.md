@@ -121,7 +121,7 @@ Mode Select を使うために、 `menuconfig` から設定を行う。
 `/chip-factory_namespace` で検索を行い、パーティションラベルに `fctry` を設定する。
 (設定項目ID: `CHIP_FACTORY_NAMESPACE_PARTITION_LABEL`)
 
-![fctryを読み込む設定](/Portfolio/images/posts/matter_mode-select_tutorial/chip-factory_namespace.png)
+![fctryを読み込む設定](/portfolio/images/posts/matter_mode-select_tutorial/chip-factory_namespace.png)
 
 次に、MODE_SELECT を使うための設定を行う。
 `/mode select` で検索し、2つの設定を行う。
@@ -129,7 +129,7 @@ Mode Select を使うために、 `menuconfig` から設定を行う。
 1. Mode Select 自体の有効化: `SUPPORT_MODE_SELECT_CLUSTER` を `yes` に設定する。
 2. Mode Select を使うエンドポイントの数: `ESP_MATTER_MODE_SELECT_CLUSTER_ENDPOINT_COUNT` を設定する。(今回は1つにしたいので、 `1` に設定した)
 
-![Mode Select 有効化](/Portfolio/images/posts/matter_mode-select_tutorial/menuconfig_mode-select.png)
+![Mode Select 有効化](/portfolio/images/posts/matter_mode-select_tutorial/menuconfig_mode-select.png)
 
 これにより、Mode Select を使う下準備が完了した。
 
@@ -171,4 +171,4 @@ ModeSelect::setSupportedModesManager(&sStaticSupportedModesManager);
 以上を実装したMatterデバイスをHome Assistantに登録すると、
 `設定→デバイスとサービス→エンティティ` からモードを変更することができるようになっている。
 
-![Mode Selectの動作確認](/Portfolio/images/posts/matter_mode-select_tutorial/ha_mode-select.png)
+![Mode Selectの動作確認](/portfolio/images/posts/matter_mode-select_tutorial/ha_mode-select.png)

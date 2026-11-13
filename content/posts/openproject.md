@@ -45,7 +45,7 @@ Web 技術の基礎を学び、ラズベリーパイを用いてプロダクト�
 
 実際に作成したプロトタイプはこのようなものだ。
 
-![prototype](/Portfolio/images/posts/openproject/sample.webp)
+![prototype](/portfolio/images/posts/openproject/sample.webp)
 
 #### 定型文送信(担当箇所)
 

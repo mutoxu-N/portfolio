@@ -13,7 +13,7 @@ SSHでサーバーを触っているときに、サクっと画像を確認し�
 ターミナルで画像を表示するためのプロトコルは、
 普段使いしているコマンドプロンプトでは使用できないため、[▀](https://0g0.org/unicode/2580/) を使って画像を表示した。
 
-![画面例](/Portfolio/images/posts/img_in_term/img_in_term.png)
+![画面例](/portfolio/images/posts/img_in_term/img_in_term.png)
 
 \
 このソフトウェアは以下の機能を持っている。
@@ -24,7 +24,7 @@ SSHでサーバーを触っているときに、サクっと画像を確認し�
 - 画面サイズに応じて画像を表示
 
 半透明の画像も表示できる。
-![画面例(透過)](/Portfolio/images/posts/img_in_term/img_in_term_grad.png)
+![画面例(透過)](/portfolio/images/posts/img_in_term/img_in_term_grad.png)
 
 
 ## ターミナルで画像を表示するプロトコル
@@ -41,7 +41,7 @@ SSHでサーバーを触っているときに、サクっと画像を確認し�
 
 ### `cmd` コマンド
 Windowsエクスプローラーでは、ファイルパスが表示されている部分でコマンドを実行することができる。 
-![エクスプローラーでコマンドを実行](/Portfolio/images/posts/img_in_term/cmd_in_exp.png)
+![エクスプローラーでコマンドを実行](/portfolio/images/posts/img_in_term/cmd_in_exp.png)
 
 この部分で `cmd` を実行すると、コマンドプロンプトで現在のフォルダを開くことができるのだ。\
 **いちいち `cd` で移動する必要が無く**、即座に作業に移行できる。\
@@ -55,7 +55,7 @@ Weztermで同じことをやろうと思うと、\
 初期設定でこの丸っこいフォントが使われているのが良い。 \
 (`Cascadia Mono`というフォントのようだ。)
 
-![コマンドプロンプトの画面例](/Portfolio/images/posts/img_in_term/prompt.png)
+![コマンドプロンプトの画面例](/portfolio/images/posts/img_in_term/prompt.png)
 
 
 また, デフォルトの配色も彩度が高くて見やすい。\
@@ -68,10 +68,10 @@ echo;
 ```
 
 まず、コマンドプロンプトの配色。色が濃くて見やすい。
-![コマンドプロンプトの配色](/Portfolio/images/posts/img_in_term/color_scheme_prompt.png)
+![コマンドプロンプトの配色](/portfolio/images/posts/img_in_term/color_scheme_prompt.png)
 
 次に、Weztermの配色。比べると少し淡い色だ。
-![Weztermの配色](/Portfolio/images/posts/img_in_term/color_scheme_wezterm.png)
+![Weztermの配色](/portfolio/images/posts/img_in_term/color_scheme_wezterm.png)
 特に、Weztermの白(`47`)はグレーに寄っていて、文字が読みにくい印象がある。
 
 Weztermはホームディレクトリの `.wezterm.lua` を使って設定を行えるため、\
@@ -97,7 +97,7 @@ return config
 
 \
 この設定で配色をチェックしてみると、だいぶ見やすくなった。
-![Weztermの配色(改良版)](/Portfolio/images/posts/img_in_term/color_scheme_wezterm_improved.png)
+![Weztermの配色(改良版)](/portfolio/images/posts/img_in_term/color_scheme_wezterm_improved.png)
 
 
 \

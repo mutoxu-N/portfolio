@@ -24,7 +24,7 @@ Jetpack Composeを使った画面構築を試してみようと作成した
 1. [02:00] 部屋を掃除する
 1. [04:00] 迎えに行く
 
-![アプリ画面](/Portfolio/images/posts/secretary/screen.webp)
+![アプリ画面](/portfolio/images/posts/secretary/screen.webp)
 
 
 この予定を、ある時間を起点として予定を作成し、
@@ -36,7 +36,7 @@ Jetpack Composeを使った画面構築を試してみようと作成した
 3. [14:00] 部屋を掃除する
 4. [16:00] 迎えに行く
 
-![設定例1](/Portfolio/images/posts/secretary/register_example1.webp)
+![設定例1](/portfolio/images/posts/secretary/register_example1.webp)
 
 
 ### 設定例2: `18:00` に設定した場合
@@ -45,7 +45,7 @@ Jetpack Composeを使った画面構築を試してみようと作成した
 1. [20:00] 部屋を掃除する
 1. [22:00] 迎えに行く
 
-![設定例2](/Portfolio/images/posts/secretary/register_example2.webp)
+![設定例2](/portfolio/images/posts/secretary/register_example2.webp)
 
 ## プログラム
 {{< linkcard "https://github.com/mutoxu-N/Secretary" >}}

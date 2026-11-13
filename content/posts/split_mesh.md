@@ -12,7 +12,7 @@ date: 2024-07-11
 OBJ ファイルから読み込んだ三角形メッシュを\
 連続する 2 領域に分割するプログラムを作成した。
 
-![実行結果例](/Portfolio/images/posts/split_mesh/squirrel_med.png)
+![実行結果例](/portfolio/images/posts/split_mesh/squirrel_med.png)
 
 ## プログラム
 
@@ -83,8 +83,8 @@ MeshLab などで開いて確認してみてほしい。
 
 ### Armadillo (sign cut)
 
-![Armadilloに対するsign cutの例](/Portfolio/images/posts/split_mesh/armadillo_sign.png)
+![Armadilloに対するsign cutの例](/portfolio/images/posts/split_mesh/armadillo_sign.png)
 
 ### Armadillo (median cut)
 
-![Armadilloに対するmedian cutの例](/Portfolio/images/posts/split_mesh/armadillo_med.png)
+![Armadilloに対するmedian cutの例](/portfolio/images/posts/split_mesh/armadillo_med.png)

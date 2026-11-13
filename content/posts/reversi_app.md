@@ -18,7 +18,7 @@ Alpha Zeroのアルゴリズムを参考にしたリバーシアプリを作成�
 
 ## 構成
 簡単な構成は以下の通り。
-![リバーシアプリの全体図](/Portfolio/images/posts/reversi_app/reversi.png)
+![リバーシアプリの全体図](/portfolio/images/posts/reversi_app/reversi.png)
 
 クライアント側から現在の盤面とCPUの手を送信すると、 
 サーバー側でCPUの手を計算して配置場所を返す仕組み。
