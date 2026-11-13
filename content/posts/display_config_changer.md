@@ -20,8 +20,8 @@ date: 2023-09-14
 
 ![Stream Deckの設定例](/portfolio/images/posts/display_config/deck.png)
 
-{{< linkcard "https://github.com/mutoxu-N/DisplayConfigChanger" >}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/DisplayConfigChanger)
+{{< linkcard "https://github.com/mutoxu-N/display-config-changer" >}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/display-config-changer)
 
 ## 動機
 2枚のモニターには、それぞれ2つの映像入力を行っている。
