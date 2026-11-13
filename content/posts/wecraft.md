@@ -14,8 +14,8 @@ date: 2019-09-13
 ゲームシステムは[OHOL](https://store.steampowered.com/app/595690/One_Hour_One_Life/?l=japanese)のような形で、
 目標のアイテムを作成したらクリア。
 
-{{< linkcard "https://github.com/mutoxu-N/WECraft/releases/tag/v1.0" >}}
-ダウンロード: [GitHub](https://github.com/mutoxu-N/WECraft/releases/tag/v1.0)
+{{< linkcard "https://github.com/mutoxu-N/wecraft/releases/tag/v1.0" >}}
+ダウンロード: [GitHub](https://github.com/mutoxu-N/wecraft/releases/tag/v1.0)
 
 ## 隠し要素
 ### 最高難易度
@@ -57,12 +57,12 @@ WECraftの難易度には、難易度順に4つを選択することができる
 
 #### アイテムID
 アイテムの取得にはアイテムIDが必要である。
-アイテムIDの確認は [`recipes.lua`](https://github.com/mutoxu-N/WECraft/blob/master/main/assets/items/recipes.lua)の
+アイテムIDの確認は [`recipes.lua`](https://github.com/mutoxu-N/wecraft/blob/master/main/assets/items/recipes.lua)の
 `items` から確認できる。
 
 {{< /collapse >}}
 
 
 ## プログラム
-{{< linkcard "https://github.com/mutoxu-N/WECraft" >}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/WECraft)
+{{< linkcard "https://github.com/mutoxu-N/wecraft" >}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/wecraft)
