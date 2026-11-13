@@ -1,7 +1,7 @@
 ---
 # description: ""
 showTableOfContents: true
-tags: ["Rust", "Dioxus", "QRコード"]
+tags: ["Rust", "egui", "QRコード"]
 title: "画面上のQRコードを読み取るアプリ「sqrr」"
 type: "post"
 date: 2026-06-04
@@ -24,18 +24,17 @@ date: 2026-06-04
 
 ## 動機
 
-- Dioxusを触ってみたかった
+- eguiを触ってみたかった
 - 就活中のオンラインイベントで画面上のQRを読み取る機会が多く、PCで簡単に読み取りたかった
 
 ## 技術
 
-RustのDioxusというUIフレームワークを使用しています。
-{{< linkcard "https://dioxuslabs.com/" >}}
+RustのeguiというUIフレームワークを使用しています。
+{{< linkcard "https://www.egui.rs/" >}}
 
 RustではTauriというフレームワークが人気ですが、
 どうしてもWeb技術を触る必要があります。
-一方で、DioxusはRustだけで完結しています。\
-ずっと興味を持っていたので、採用してみました。
+一方で、eguiはRustだけで完結しており、常駐アプリ向けに省メモリで動作する点から採用しました。
 
 QR処理は[rqrr](https://docs.rs/rqrr/latest/rqrr/)というクレートを使っています。
 
