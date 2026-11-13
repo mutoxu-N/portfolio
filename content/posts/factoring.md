@@ -21,7 +21,7 @@ $2, 3, 5, 7, 11, 13, 17, 19$ の合成数が与えられるので、
 
 ![縦画面](/portfolio/images/posts/factoring/vertical.png)
 
-Windows 用ダウンロード: [GitHub](https://github.com/mutoxu-N/Factoring/releases/tag/windows)
+Windows 用ダウンロード: [GitHub](https://github.com/mutoxu-N/factoring/releases/tag/windows)
 
 ## 閑話
 
@@ -33,5 +33,5 @@ $n$問目の素因数の数は $\lfloor \frac{n}{5} \rfloor + 2$ 個になりま
 
 ## プログラム
 
-{{< linkcard "https://github.com/mutoxu-N/Factoring">}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/Factoring)
+{{< linkcard "https://github.com/mutoxu-N/factoring">}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/factoring)
