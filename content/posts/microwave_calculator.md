@@ -39,5 +39,5 @@ Google Playストアへのリリースを行った。
 {{< linkcard "https://talent.supporterz.jp/events/65ad84d5-9f88-4149-b752-f37f1682c08d/" >}}
 
 ## ソースコード
-{{< linkcard "https://github.com/mutoxu-N/MicrowaveCalculator" >}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/MicrowaveCalculator)
+{{< linkcard "https://github.com/mutoxu-N/microwave-calculator" >}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/microwave-calculator)
