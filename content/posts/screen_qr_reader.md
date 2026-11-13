@@ -41,5 +41,5 @@ QR処理は[rqrr](https://docs.rs/rqrr/latest/rqrr/)というクレートを使�
 
 ## プログラム
 
-{{< linkcard "https://github.com/mutoxu-N/ScreenQRReader" >}}
-ソースコード: [GitHub](https://github.com/mutoxu-N/ScreenQRReader)
+{{< linkcard "https://github.com/mutoxu-N/sqrr" >}}
+ソースコード: [GitHub](https://github.com/mutoxu-N/sqrr)
