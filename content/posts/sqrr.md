@@ -2,7 +2,7 @@
 # description: ""
 showTableOfContents: true
 tags: ["Rust", "Dioxus", "QRコード"]
-title: "画面上のQRコードを読み取るアプリ「ScreenQRReader」"
+title: "画面上のQRコードを読み取るアプリ「sqrr」"
 type: "post"
 date: 2026-06-04
 ---
@@ -11,7 +11,7 @@ date: 2026-06-04
 
 画面上のQRコードを読むためデスクトップアプリ。
 
-![アプリアイコン](/portfolio/images/posts/screen_qr_reader/icon.png)
+![アプリアイコン](/portfolio/images/posts/sqrr/icon.png)
 
 ## 主な機能
 

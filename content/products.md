@@ -12,7 +12,7 @@ mutoxu=N が作成した物のまとめ。
 - [DisplayConfigChanger](/portfolio/posts/display_config_changer): デュアルディスプレイの設定を変更するEXE
 - [SRT自動生成](/portfolio/posts/subtitle_generator): 文字起こしモデル"Faster-Whisper"を使ったSRT自動生成
 - [ターミナルで画像表示](/portfolio/posts/img_in_term): ターミナルやSSHでも画像を表示する
-- [デスクトップでQR読み取り](/portfolio/posts/screen_qr_reader): 画面上のQRコードを読み取るアプリ
+- [デスクトップでQR読み取り](/portfolio/posts/sqrr): 画面上のQRコードを読み取るアプリ
 
 ## Android関連
 
