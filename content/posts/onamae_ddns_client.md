@@ -72,7 +72,7 @@ Python で動く DDNS クライアントを作成した。
 -   設定例(一時間ごとに実行)
 
 ```
-0 * * * * cd /home/user/OnamaeDdnsClient && pipenv run python3 update.py
+0 * * * * cd /home/user/onamae-ddns-client && pipenv run python3 update.py
 ```
 
 カレントディレクトリにログが書き出されるので `cd` しておくと良い。
@@ -91,4 +91,4 @@ Python で動く DDNS クライアントを作成した。
 ## ソースコード
 
 ソースコード: [GitHub](https://github.com/suzukicloud/onamae-ddns-client)
-{{< linkcard "https://github.com/mutoxu-N/OnamaeDdnsClient" >}}
+{{< linkcard "https://github.com/mutoxu-N/onamae-ddns-client" >}}
